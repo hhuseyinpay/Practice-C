@@ -1,0 +1,1 @@
+I coded these programs by using examples from - http://www.sanfoundry.com/c-programming-examples-strings/ , http://www.tutorialspoint.com , https://en.wikibooks.org/wiki/C_Programming/Strings , The GNU C Programming Tutorial book, -  and making some chages and improvements.
