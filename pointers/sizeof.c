@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int main() 
+int main()
 {
     int vector[5];
     printf("%d\n", sizeof(vector)/sizeof(int));
 
-    printf("%p\n",vector); 
+    printf("%p\n",vector);
     printf("%p\n",&vector[0]);
 
     int matrix[2][3];
@@ -14,5 +14,10 @@ int main()
                 i, &matrix[i], i, sizeof(matrix[i]));
     }
 
+    printf("-----------------\n");
+    printf("%d\n",sizeof(char));
+    printf("%d\n",sizeof('a'));
+
     return 0;
+
 }
